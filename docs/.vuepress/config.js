@@ -574,7 +574,7 @@ module.exports = {
     "authorAvatar": "/author.png",
 //    "record": "",   //备案信息
     "startYear": "2021",
-    "info": "一个刚开始学的小白qwq！",
+    "info": "一个刚开始学的小白qwq",
     publish: false,
     smoothScroll: true,
     mode: 'dark',
