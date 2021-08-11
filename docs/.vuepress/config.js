@@ -6,6 +6,18 @@ module.exports = {
   "port": 2333,
   plugins: [
     [
+        '@vuepress/last-updated',
+        {
+            transformer: (timestamp, lang) => {
+                // 不要忘了安装 moment
+                // moment 时间格式化文档戳这里 http://momentjs.cn/
+                const moment = require('moment')
+                moment.locale(lang)
+                return moment(timestamp).fromNow()
+            }
+        }
+    ],
+    [
       "vuepress-plugin-nuggets-style-copy", 
       {
         copyText: "复制代码",
