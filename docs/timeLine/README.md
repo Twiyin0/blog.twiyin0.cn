@@ -1,5 +1,7 @@
 ---
 isTimeLine: true
-sidebar: true
-isComment: true
+sidebar: false
+isComment: false
 ---
+
+## Time Line
