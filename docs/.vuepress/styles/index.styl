@@ -1,0 +1,155 @@
+// 侧边栏样式
+// 左侧侧边栏标题
+.sidebar > .sidebar-links > li > a.sidebar-link {
+  font-size: 1.5em !important;
+  margin-left: -1em;
+}
+// 右侧文章标题导航栏
+a.sidebar-link {
+  font-size: 16px !important;
+}
+// 左侧边栏标题字体大小样式
+.sidebar-heading span{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.sidebar-heading.open span{
+    font-weight: bold;
+}
+
+//侧边栏透明化 
+aside.sidebar{
+    background: transparent !important;
+}
+
+// 左侧边栏展开文章的字体大小
+a.sidebar-link.active {
+    color: #070808 !important; 
+    font-size: 14px !important;
+    background: #c3d4b742 !important;
+}
+.sidebar-sub-headers a.sidebar-link {
+    margin: 0 1rem 0 1rem !important;
+}
+// 分组的透明度修改，未生效
+.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable){
+    opacity: 0.5;
+}
+
+// 去除左上角标题，作者，标签等
+//.page .page-title {
+//    display: none;
+//}
+
+/*滚动条的设置*/
+::-webkit-scrollbar-thumb {
+	background-color:#94989c8c !important; 
+	background-clip:padding-box !important; 
+	-webkit-border-radius: 10em !important; 
+	-moz-border-radius: 10em !important; 
+	border-radius: 10em !important; 
+}
+/*滚动条凹槽的颜色，还可以设置边框属性 */
+::-webkit-scrollbar-track-piece {
+	background-color:transparent !important; 
+	-webkit-border-radius: 0em !important; 
+	-moz-border-radius: 0em !important; 
+	border-radius: 0em !important; 
+}
+
+//博文列表
+.abstract-item{
+    background: transparent !important;
+}
+
+.personal-info-wrapper, .info-wrapper{
+    background: transparent !important;
+}
+
+/*.home-blog .hero h1{
+    display: none !important;
+}*/
+
+.description p{
+    margin: 5rem auto;
+    position: relative !important;
+    top: 50px !important;
+}
+
+.hero div{
+    background: transparent !important;
+}
+
+.aplayer{
+    background: #b2b2b5 !important;
+}
+
+.aplayer .aplayer-body{
+    background: #b2b2b5 !important;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-time{
+    color: #fff !important;
+}
+
+.aplayer .aplayer-miniswitcher{
+    background: #ffffff !important;
+}
+
+.medium-zoom-image {
+    height: 150px !important;
+}
+//移动端侧边栏
+.nav-links a{
+    color: #fbfbfb !important;
+}
+
+//搜索框
+.suggestions{
+    color: #353535 !important;
+}
+
+//时间轴
+.timeline-content
+  width calc(100% - 20px)
+  left 20px
+  max-width 600px
+  margin 30px auto 0 auto
+  padding-bottom 50px
+  .year-wrapper
+    li
+      margin-top 10px
+      border 0 !important
+      padding 2.5px !important
+      .title
+        color #fff !important
+        padding 10px 20px 10px 20px !important
+        // background-image linear-gradient(to right, #FEB692, #EA5455)
+        background-image linear-gradient(to right, #fe92ba, #bb349d)
+        border-radius 50px
+        white-space nowrap
+        overflow hidden
+        display block
+        width 100%
+        transition all 1s
+        text-overflow ellipsis
+      
+      .date
+        position absolute
+        left -60px
+        top 10px
+        
+        &:before
+          left 42px !important
+          top 12px !important
+          transition all 1s
+        
+      
+      &:hover
+        .title
+          transform translateX(20px)  
+        .date
+          color #bb349d !important
+          &:before
+            transform scale(2)
+            background #bb349d !important
