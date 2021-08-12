@@ -2,7 +2,7 @@
 title: 回顾博客搭建过程
 date: 2021-07-24
 sticky: 2
-cover: human1.jpg
+cover: /img/human1.png
 tags:
  - 博客
 categories: 

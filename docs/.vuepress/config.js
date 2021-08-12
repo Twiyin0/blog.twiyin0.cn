@@ -87,15 +87,15 @@ module.exports = {
     [
       //安装meting: yarn add vuepress-plugin-meting -D
       "meting",{
-        //metingApi: "https://api.injahow.cn/meting/",
+        metingApi: "https://api.injahow.cn/meting/",
         meting:
         {
           //server: "netease",
-          //type: "song",
-          //mid: "39449871",
-          //auto: "https://music.163.com/playlist?id=6877495415"
+          //type: "playlist",
+          //mid: "5482993727",
+          auto: "https://music.163.com/playlist?id=6877495415"
           //auto: "https://music.163.com/song?id=39449871"
-          auto: "https://music.163.com/#/song?id=39449871"
+          //auto: "https://music.163.com/#/song?id=39449871"
         },
         aplayer:
         {
@@ -113,22 +113,14 @@ module.exports = {
           //preload: "auto",   //设置音频的预加载模式'none' | 'metadata' | 'auto' 默认auto
           //listMaxHeight: 250  //设置播放列表最大高度，单位为像素
           additionalAudios: [
-            /*{
-              name: "热爱105℃的你",
-              artist: "蜜奶糖",
-              url: "/audios/热爱105°c的你蜜糖奶.mp3",
-              cover: "/head.jpg",
-              lrc: "http://yin0mc.ltd:3000/lyric?id=1853354153"
-            },
             //模板
-            {
+            /*{
               name: "",
               artist: "",
               url: "https://api.injahow.cn/meting/?type=url&id=",
               cover: "https://api.injahow.cn/meting/?type=cover&id=",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id="
-            }
-            */
+            }*/
             {
               name: "License of Love",
               artist: "Tomggg / kiki vivi lily",
@@ -269,19 +261,12 @@ module.exports = {
               cover: "https://api.injahow.cn/meting/?type=cover&id=1378492147",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1378492147"
             },
-            /*{
+            {
               name: "Black bird",
               artist: "ぼくのりりっくのぼうよみ",
               url: "https://api.injahow.cn/meting/?type=url&id=39449871",
               cover: "https://api.injahow.cn/meting/?type=cover&id=39449871",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=39449871"
-            },*/
-            {
-              name: "灰色と青",
-              artist: "米津玄師 / 菅田将暉",
-              url: "https://api.injahow.cn/meting/?type=url&id=512376195",
-              cover: "https://api.injahow.cn/meting/?type=cover&id=512376195",
-              lrc: "https://api.injahow.cn/meting/?type=lrc&id=512376195"
             },
             {
               name: "アンサー",
@@ -314,58 +299,58 @@ module.exports = {
             {
                 name: "约束",
                 artist: "秋绘Akie",
-                url: "https://meting.warma.ren/?type=url&id=1354451040",
-                cover: "https://meting.warma.ren/?type=cover&id=1354451040",
+                url: "https://api.injahow.cn/meting/?type=url&id=1354451040",
+                cover: "https://api.injahow.cn/meting/?type=cover&id=1354451040",
                 lrc: "https://meting.warma.ren/?type=lrc&id=1354451040"
             },
             {
                 name: "心拍数#0822",
                 artist: "鹿乃",
-                url: "https://meting.warma.ren/?type=url&id=537854741",
-                cover: "https://meting.warma.ren/?type=cover&id=537854741",
-                lrc: "https://meting.warma.ren/?type=lrc&id=537854741"
+                url: "https://api.injahow.cn/meting/?type=url&id=537854741",
+                cover: "https://api.injahow.cn/meting/?type=cover&id=537854741",
+                lrc: "https://api.injahow.cn/meting/?type=lrc&id=537854741"
             },
             {
                 name: "【星火行动】朝汐（泠鸢&双笙）",
                 artist: "双笙,泠鸢yousa",
-                url: "https://meting.warma.ren/?type=url&id=1316479227",
-                cover: "https://meting.warma.ren/?type=cover&id=1316479227",
-                lrc: "https://meting.warma.ren/?type=lrc&id=1316479227"
+                url: "https://api.injahow.cn/meting/?type=url&id=1316479227",
+                cover: "https://api.injahow.cn/meting/?type=cover&id=1316479227",
+                lrc: "https://api.injahow.cn/meting/?type=lrc&id=1316479227"
             },
             {
                 name: "爱してる",
                 artist: "高鈴",
-                url: "https://meting.warma.ren/?type=url&id=756701",
-                cover: "https://meting.warma.ren/?type=cover&id=756701",
-                lrc: "https://meting.warma.ren/?type=lrc&id=756701"
+                url: "https://api.injahow.cn/meting/?type=url&id=756701",
+                cover: "https://api.injahow.cn/meting/?type=cover&id=756701",
+                lrc: "https://api.injahow.cn/meting/?type=lrc&id=756701"
             },
             {
                 name: "カワキヲアメク(TV size)（翻自 美波） ",
                 artist: "鸣海narumi",
-                url: "https://meting.warma.ren/?type=url&id=1378064713",
-                cover: "https://meting.warma.ren/?type=cover&id=1378064713",
-                lrc: "https://meting.warma.ren/?type=lrc&id=1378064713"
+                url: "https://api.injahow.cn/meting/?type=url&id=1378064713",
+                cover: "https://api.injahow.cn/meting/?type=cover&id=1378064713",
+                lrc: "https://api.injahow.cn/meting/?type=lrc&id=1378064713"
             },
             {
                 name: "だから僕は音楽を辞めた/所以我放弃了音乐（翻自 ヨルシカ）  ",
                 artist: "鸣海narumi",
-                url: "https://meting.warma.ren/?type=url&id=1364715702",
-                cover: "https://meting.warma.ren/?type=cover&id=1364715702",
-                lrc: "https://meting.warma.ren/?type=lrc&id=1364715702"
+                url: "https://api.injahow.cn/meting/?type=url&id=1364715702",
+                cover: "https://api.injahow.cn/meting/?type=cover&id=1364715702",
+                lrc: "https://api.injahow.cn/meting/?type=lrc&id=1364715702"
             },
             {
                 name: "一日都市（人声本家） ",
                 artist: "小野道ono,Hanser",
-                url: "https://meting.warma.ren/?type=url&id=494952303",
-                cover: "https://meting.warma.ren/?type=cover&id=494952303",
-                lrc: "https://meting.warma.ren/?type=lrc&id=494952303"
+                url: "https://api.injahow.cn/meting/?type=url&id=494952303",
+                cover: "https://api.injahow.cn/meting/?type=cover&id=494952303",
+                lrc: "https://api.injahow.cn/meting/?type=lrc&id=494952303"
             },
             {
                 name: "病名为爱（病名は愛だった）（Cover リン&レン） ",
                 artist: "Yukiri,Hanser",
-                url: "https://meting.warma.ren/?type=url&id=510697890",
-                cover: "https://meting.warma.ren/?type=cover&id=510697890",
-                lrc: "https://meting.warma.ren/?type=lrc&id=510697890"
+                url: "https://api.injahow.cn/meting/?type=url&id=510697890",
+                cover: "https://api.injahow.cn/meting/?type=cover&id=510697890",
+                lrc: "https://api.injahow.cn/meting/?type=lrc&id=510697890"
             }
           ]
         },
@@ -546,7 +531,7 @@ module.exports = {
         "link": "https://vuepress-theme-reco.recoluan.com"
       },
       {
-        "title": "vlssu",
+        "title": "师叔の小窝",
         "desc": "这个是师叔的博客",
         "avatar": "https://blog.vlssu.com//favicon.ico",
         "link": "https://blog.vlssu.com/"
@@ -586,7 +571,7 @@ module.exports = {
     "authorAvatar": "/author.png",
 //    "record": "",   //备案信息
     "startYear": "2021",
-    "info": "一个刚开始学的小白qwq",
+    "info": "一个随处可见的宅男awa",
     publish: false,
     smoothScroll: true,
     mode: 'dark',
