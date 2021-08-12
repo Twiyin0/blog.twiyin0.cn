@@ -15,7 +15,7 @@ categories:
 :::  
 
 <!-- more -->  
-<video id="shenli" src="/shenli.mp4" loop width="100%" height="100%" controls autoplay></video>
+<video id="shenli" src="https://file.yin0mc.ltd:100/videos/shenli.mp4" loop width="100%" height="100%" controls></video>
 当前博客版本：v3.0-fixed  
 
 # 特别鸣谢  
