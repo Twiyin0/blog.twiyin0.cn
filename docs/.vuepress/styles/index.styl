@@ -1,3 +1,11 @@
+// 头像旋转
+.personal-img:hover {
+    transform: rotate(2turn) !important;    /* 定义了transform的2d旋转,turn表示 圈(单位) */
+    transition-delay: 0s !important;        /* 延迟 */
+    transition-property: all !important;    /* 指定具有过渡效果的css属性 */
+    transition-duration: 0.56s !important;     /* 定义了执行时间 */
+    transition-timing-function: cubic-bezier(.24,.20,.64,1) !important; /* 定义了执行速度 */
+}
 // 侧边栏样式
 // 左侧侧边栏标题
 .sidebar > .sidebar-links > li > a.sidebar-link {

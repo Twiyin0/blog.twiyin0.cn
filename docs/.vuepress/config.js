@@ -173,7 +173,7 @@ module.exports = {
             {
               name: "你的猫咪",
               artist: "hanser",
-              url: "https:file.yin0mc.ltd:100/audios/hanser-maomi.mp3",
+              url: "https://file.yin0mc.ltd/audios/hanser-maomi.mp3",
               cover: "https://imgessl.kugou.com/stdmusic/20191225/20191225140513936647.jpg",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1420109766"
             },
@@ -569,7 +569,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "暮色音铃Twiyin0",
     "authorAvatar": "/author.png",
-//    "record": "",   //备案信息
+    "record": "",   //备案信息
     "startYear": "2021",
     "info": "一个随处可见的宅男awa",
     publish: false,
