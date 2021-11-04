@@ -1,7 +1,7 @@
 ---
 title: 用自己的win10电脑搭建本地mc服务器
 date: 2021-08-20
-cover: https://file.yin0mc.ltd:100/images/yourname.jpg
+cover: https://file.yin0mc.ltd/images/yourname.jpg
 tags:
  - mc
 categories:
