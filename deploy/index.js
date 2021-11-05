@@ -79,7 +79,7 @@ function startRemoteShell() {
     // 在服务器上cwd配置的路径下执行sh deploy.sh脚本来实现发布
     ssh
         .execCommand("sh deploy.sh", {
-            cwd: "/www/wwwroot/yin.yin0mc.ltd",
+            cwd: "/www/wwwroot/blog.yin0mc.ltd",
         })
         .then(function (result) {
             console.log("远程STDOUT输出: " + result.stdout);

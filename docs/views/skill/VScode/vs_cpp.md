@@ -55,7 +55,9 @@ gcc -v
 <br>失败了请检查环境变量路径是否为mingw的bin文件夹
 <br>或者bin文件夹内的文件是否有损失
 
-## VScode配置环境
+# 配置C环境
+
+## VScode配置c环境
 VScode按下shift+ctrl+p后输入C/C++
 <br>选择编辑配置(UI)
 <br>![mingw2](https://img.yin0mc.ltd/other/teach/gcc/mingw2.png)
@@ -73,7 +75,7 @@ VScode按下shift+ctrl+p后输入C/C++
 
 ## VScode下新建C工程
 这个很简单，资源管理器新建一个文件夹，然后把它拖到VScode内即可
-<br>这个文件夹内就是我们的C/C++工程了
+<br>这个文件夹内就是我们的C工程了
 
 ## VScode编译运行.c文件
 **方法一**
@@ -90,3 +92,28 @@ main.c是要编译的c文件
 <br>使用./a.exe执行即可运行编译的文件
 <br>![mingw6](https://img.yin0mc.ltd/other/teach/gcc/mingw6.png)
 
+# 配置C++环境
+
+## VScode配置c++环境
+VScode按下shift+ctrl+p后输入C/C++
+<br>选择编辑配置(UI)
+<br>![mingw2](https://img.yin0mc.ltd/other/teach/gcc/mingw2.png)
+<br>然后我们按以下来配置
+<br>![mingw2](https://img.yin0mc.ltd/other/teach/gcc/vsc1.png)
+<br>![mingw2](https://img.yin0mc.ltd/other/teach/gcc/vsc2.png)
+<br>所以我们，仅需要将编译器更换即可，其他都与C环境相同
+
+## VScode编译运行.c文件
+**方法一**
+<br>点击右上角的三角形即可
+<br>![mingw5](https://img.yin0mc.ltd/other/teach/gcc/vsc3.png)
+<br>
+<br>**方法二**
+<br>用终端编译运行
+<br>首先在VScode内打开终端，输入gcc main.cpp编译c++文件
+:::tip
+main.cpp是要编译的c++文件
+:::
+我们可以看到文件夹内多了一个a.exe的文件
+<br>使用./a.exe执行即可运行编译的文件
+<br>![mingw6](https://img.yin0mc.ltd/other/teach/gcc/vsc4.png)
