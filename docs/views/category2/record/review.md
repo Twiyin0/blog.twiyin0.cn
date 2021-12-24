@@ -63,7 +63,7 @@ npm install -g yarn
 我的电脑-属性-高级系统设置-环境变量-在PATH后加入  
 F:\Node\node_modules\yarn\bin\yarn.js;
 :::
-检查是否安装完成  
+检查是否安装完成
 ```
 yarn -v
 ```  
