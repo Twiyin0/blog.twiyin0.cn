@@ -3,9 +3,10 @@ title: 自定义HMCL启动封面背景图片
 date: 2021-07-19
 cover: /img/bilan.png
 tags:
- - 教程
+ - minecraft
+ - hmcl
 categories:
- - 教程
+ - minecraft
 ---
 
 # 引言

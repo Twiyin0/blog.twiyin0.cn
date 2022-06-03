@@ -8,13 +8,13 @@ module.exports = {
     [
         '@vuepress/last-updated',
         {
-            transformer: (timestamp, lang) => {
+            /*transformer: (timestamp, lang) => {
                 // 不要忘了安装 moment
                 // moment 时间格式化文档戳这里 http://momentjs.cn/
                 const moment = require('moment')
                 moment.locale(lang)
                 return moment(timestamp).fromNow()
-            }
+            }*/
         }
     ],
     [
@@ -46,7 +46,7 @@ module.exports = {
     [
       "dynamic-title",
       {
-        showIcon: "/head.jpg",
+        showIcon: "/favicon.ico",
         showText: "(人*´∀｀)｡*ﾟ欢迎回来~",
         hideIcon: "/head.jpg",
         hideText: "( ≧Д≦)不要走啊~",
@@ -122,6 +122,13 @@ module.exports = {
               lrc: "https://api.injahow.cn/meting/?type=lrc&id="
             }*/
             {
+              name: "恋のうた (feat. 由崎司)",
+              artist: "Yunomi/鬼頭明里",
+              url: "https://api.injahow.cn/meting/?type=url&id=1484336476",
+              cover: "https://api.injahow.cn/meting/?type=cover&id=1484336476",
+              lrc: "https://api.injahow.cn/meting/?type=lrc&id=1484336476"
+            },
+            {
               name: "License of Love",
               artist: "Tomggg / kiki vivi lily",
               url: "https://api.injahow.cn/meting/?type=url&id=1863343404",
@@ -173,7 +180,7 @@ module.exports = {
             {
               name: "你的猫咪",
               artist: "hanser",
-              url: "https://file.yin0mc.ltd/audios/hanser-maomi.mp3",
+              url: "https://upyun.twiyin0.cn/blog/mp3/hanser-neko.mp3",
               cover: "https://imgessl.kugou.com/stdmusic/20191225/20191225140513936647.jpg",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1420109766"
             },
@@ -181,7 +188,7 @@ module.exports = {
               name: "青空を触るまで",
               artist: "宫野栞/理想放逐",
               url: "https://api.vlssu.com/meting/?server=netease&type=url&id=1494296154",
-              cover: "https://api2.suiyil.cn/meting-api/?type=cover&id=1494296154",
+              cover: "https://api.vlssu.com/meting/?type=cover&id=1494296154",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1494296154"
             },
             {
@@ -194,44 +201,44 @@ module.exports = {
             {
               name: "もう一度",
               artist: "夏野natsuno",
-              url: "https://api2.suiyil.cn/meting-api/?type=url&id=1421273800",
+              url: "https://api.vlssu.com/meting/?type=url&id=1421273800",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1421273800",
-              cover: "https://api2.suiyil.cn/meting-api/?type=cover&id=1421273800"
+              cover: "https://api.vlssu.com/meting/?type=cover&id=1421273800"
             },
             {
               name: "自己愛主義天使",
               artist: "Nyarons/中村さんそ",
-              url: "https://api2.suiyil.cn/meting-api/?type=url&id=1824933564",
+              url: "https://api.vlssu.com/meting/?type=url&id=1824933564",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1824933564",
-              cover: "https://api2.suiyil.cn/meting-api/?type=cover&id=1824933564"
+              cover: "https://api.vlssu.com/meting/?type=cover&id=1824933564"
             },
             {
               name: "蝶々結び",
               artist: "Amier",
-              url: "https://api2.suiyil.cn/meting-api/?type=url&id=431259253",
+              url: "https://api.vlssu.com/meting/?type=url&id=431259253",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=431259253",
-              cover: "https://api2.suiyil.cn/meting-api/?type=cover&id=431259253"
+              cover: "https://api.vlssu.com/meting/?type=cover&id=431259253"
             },
             {
               name: "だから僕は音楽を辞めた",
               artist: "夏野Natsuno",
-              url: "https://api2.suiyil.cn/meting-api/?type=url&id=1371137521",
+              url: "https://api.vlssu.com/meting/?type=url&id=1371137521",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1371137521",
-              cover: "https://api2.suiyil.cn/meting-api/?type=cover&id=1371137521"
+              cover: "https://api.vlssu.com/meting/?type=cover&id=1371137521"
             },
             {
               name: "アイロニ",
               artist: "夏野Natsuno",
-              url: "https://api2.suiyil.cn/meting-api/?type=url&id=1342403439",
+              url: "https://api.injahow.cn/meting/?type=url&id=1342403439",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1342403439",
-              cover: "https://api2.suiyil.cn/meting-api/?type=cover&id=1342403439"
+              cover: "https://api.injahow.cn/meting/?type=cover&id=1342403439"
             },
             {
               name: "カタオモイ",
               artist: "Amier",
-              url: "https://api2.suiyil.cn/meting-api/?type=url&id=431259256",
+              url: "https://api.vlssu.com/meting/?type=url&id=431259256",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=431259256",
-              cover: "https://api2.suiyil.cn/meting-api/?type=cover&id=431259256"
+              cover: "https://api.injahow.cn/meting/?type=cover&id=431259256"
             },
             {
               name: "失眠飞行",
@@ -355,7 +362,7 @@ module.exports = {
           ]
         },
         mobile:{
-          cover: true,
+          cover: false,
           lrc: true
         }
       }
@@ -431,7 +438,7 @@ module.exports = {
       "link",
       {
         "rel": "icon",
-        "href": "/head.jpg"
+        "href": "/favicon.ico"
       }
     ],
     [
@@ -472,6 +479,11 @@ module.exports = {
         "text": "TimeLine",
         "link": "/timeline/",
         "icon": "reco-date"
+      },
+      {
+        "text": "个人主页",
+        "link": "https://iin0.cn/",
+        "icon": "reco-account"
       },
       {
         "text": "链接",
@@ -569,15 +581,16 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "暮色音铃Twiyin0",
     "authorAvatar": "/author.png",
-    "record": "",   //备案信息
+    "record": "沪ICP备2022002870号-10",   //备案信息
+    "recordLink": "https://beian.miit.gov.cn/",
     "startYear": "2021",
-    "info": "一个随处可见的宅男awa",
     publish: false,
     smoothScroll: true,
     mode: 'dark',
     modePicker: true,
     displayAllHeaders: true,    //显示所有页面的标题链接
     activeHeaderLinks: true,    //活动的标题链接
+    "info": "一个随处可见的宅男awa无聊时甚至会敲敲代码",
     "mottos": [{
       "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
       "en": "May you keep your original heart and kindness, and smile with warmth and magnanimity."

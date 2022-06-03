@@ -13,7 +13,6 @@ tagline: A simple and beautiful vuepress blog theme.
 #}
 #bgImage: '/background.jpg'
 bgImageStyle: {
-#  height: '520px'
   height: '92vh'
 }
 isShowTitleInHome: false
