@@ -88,20 +88,11 @@ module.exports = {
       //安装meting: yarn add vuepress-plugin-meting -D
       "meting",{
         metingApi: "https://api.injahow.cn/meting/",
-        meting:
-        {
-          //server: "netease",
-          //type: "playlist",
-          //mid: "5482993727",
-          auto: "https://music.163.com/playlist?id=6877495415"
-          //auto: "https://music.163.com/song?id=39449871"
-          //auto: "https://music.163.com/#/song?id=39449871"
-        },
         aplayer:
         {
           fixed: false,     //吸底模式
           mini: true,       //mini版
-          autoplay: true,   //自动播放
+          autoplay: false,   //自动播放
           //theme: "#aaa",    //主题颜色
           volume: 0.3,      //音量
           mutex: true,      //互斥模式
@@ -121,6 +112,13 @@ module.exports = {
               cover: "https://api.injahow.cn/meting/?type=cover&id=",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id="
             }*/
+            {
+              name: "アイシテ",
+              artist: "nameless",
+              url: "https://api.injahow.cn/meting/?type=url&id=38689097",
+              cover: "https://api.injahow.cn/meting/?type=cover&id=38689097",
+              lrc: "https://api.injahow.cn/meting/?type=lrc&id=38689097"
+            },
             {
               name: "恋のうた (feat. 由崎司)",
               artist: "Yunomi/鬼頭明里",
@@ -148,13 +146,6 @@ module.exports = {
               url: "https://api.injahow.cn/meting/?type=url&id=435305771",
               cover: "https://api.injahow.cn/meting/?type=cover&id=435305771",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=435305771"
-            },
-            {
-              name: "《你的名字》6首BGM其实是一首歌",
-              artist: "Kyle Xian",
-              url: "https://api.injahow.cn/meting/?type=url&id=503619284",
-              cover: "https://api.injahow.cn/meting/?type=cover&id=503619284",
-              lrc: "https://api.injahow.cn/meting/?type=lrc&id=503619284"
             },
             {
               name: "You",
@@ -204,13 +195,6 @@ module.exports = {
               url: "https://api.vlssu.com/meting/?type=url&id=1421273800",
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1421273800",
               cover: "https://api.vlssu.com/meting/?type=cover&id=1421273800"
-            },
-            {
-              name: "自己愛主義天使",
-              artist: "Nyarons/中村さんそ",
-              url: "https://api.vlssu.com/meting/?type=url&id=1824933564",
-              lrc: "https://api.injahow.cn/meting/?type=lrc&id=1824933564",
-              cover: "https://api.vlssu.com/meting/?type=cover&id=1824933564"
             },
             {
               name: "蝶々結び",
@@ -283,13 +267,6 @@ module.exports = {
               lrc: "https://api.injahow.cn/meting/?type=lrc&id=1501450519"
             },
             {
-              name: "約束（翻自 リリィ、さよなら。）",
-              artist: "pia碳",
-              url: "https://api.injahow.cn/meting/?type=url&id=1336886327",
-              cover: "https://api.injahow.cn/meting/?type=cover&id=1336886327",
-              lrc: "https://api.injahow.cn/meting/?type=lrc&id=1336886327"
-            },
-            {
               name: "Orange",
               artist: "pia碳",
               url: "https://api.injahow.cn/meting/?type=url&id=1323130624",
@@ -316,13 +293,6 @@ module.exports = {
                 url: "https://api.injahow.cn/meting/?type=url&id=537854741",
                 cover: "https://api.injahow.cn/meting/?type=cover&id=537854741",
                 lrc: "https://api.injahow.cn/meting/?type=lrc&id=537854741"
-            },
-            {
-                name: "【星火行动】朝汐（泠鸢&双笙）",
-                artist: "双笙,泠鸢yousa",
-                url: "https://api.injahow.cn/meting/?type=url&id=1316479227",
-                cover: "https://api.injahow.cn/meting/?type=cover&id=1316479227",
-                lrc: "https://api.injahow.cn/meting/?type=lrc&id=1316479227"
             },
             {
                 name: "爱してる",
@@ -360,6 +330,15 @@ module.exports = {
                 lrc: "https://api.injahow.cn/meting/?type=lrc&id=510697890"
             }
           ]
+        },
+        meting:
+        {
+          //server: "netease",
+          //type: "playlist",
+          //mid: "5482993727",
+          auto: "https://music.163.com/playlist?id=6877495415"
+          //auto: "https://music.163.com/song?id=39449871"
+          //auto: "https://music.163.com/#/song?id=39449871"
         },
         mobile:{
           cover: false,
