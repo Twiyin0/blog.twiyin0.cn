@@ -8,7 +8,7 @@ tags:
  - STM32
  - 单片机
 categories: 
- - 学习
+ - 单片机
 ---  
 
 :::tip

@@ -7,7 +7,7 @@ tags:
  - 单片机
  - C/C++
 categories: 
- - skill
+ - 单片机
 ---
 
 电赛可能会限制使用TI公司的芯片  
