@@ -46,7 +46,7 @@ UCA0与UCA1就是串口了
 所以我们选择P44与P45  
 深层的原理就不讲了，毕竟配置的寄存器  
 寄存器一些参数网上也都有看着代码来理解吧  
-```c++
+```C
 void UCA1_Init(void)
 {
     P4SEL |= BIT4+BIT5;                 // 选择引脚 P4.4TX & P4.5RX
@@ -65,7 +65,7 @@ void UCA1_Init(void)
 
 ### 中断处理
 串口必然有中断，MSP430的中断跟51有点差别，但思路都是一样的  
-```c++
+```C
 unsigned short RxDataBuf[100];
 unsigned short RxDataLen = 0;
 unsigned short RxDataFlag = 0;
@@ -99,7 +99,7 @@ __interrupt void USCI_ISR()
 
 ### 发送一个字节数据与发送字符串
 初始化完成后，我们就能使用了  
-```c++
+```C
 /*发送一个字节数据*/
 void sendChar(char c)
 {
@@ -119,7 +119,7 @@ void sendStr(unsigned char *pstr)
 
 ## 整合后的代码
 最后附上全代码，主要看懂原理，而非完全copy。
-```c++
+```C
 #include <msp430.h>
 
 void sendChar(char c);
